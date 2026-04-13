@@ -21,17 +21,19 @@ SOAP 病歷資料（S / O / A / P）
 ---
 
 ## 🧠 可預測診斷類別
-stroke
-transient ischemic attack
-dementia
-epilepsy
-migraine
-parkinsonism
-neuropathy
-radiculopathy
-spine disease
-carotid artery disease
-syncope
+
+- stroke  
+- transient ischemic attack  
+- dementia  
+- epilepsy  
+- migraine  
+- parkinsonism  
+- neuropathy  
+- radiculopathy  
+- spine disease  
+- carotid artery disease  
+- syncope  
+
 ---
 
 ## ⚙️ 使用方法
