@@ -50,11 +50,15 @@ pip install torch transformers pandas openpyxl
 ```
 
 ###2️⃣ 設定模型與資料
+```
 MODEL_PATH = "hoho0106tw/femh-primary-dx-model"
 EXCEL_PATH = "sample_200_v4.xlsx"
+```
 
 ###3️⃣ 執行
+```bash
 python soap_dx_distilled_model.py
+```
 ---
 
 ##🚀 模型優勢
