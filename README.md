@@ -49,19 +49,19 @@ SOAP 病歷資料（S / O / A / P）
 pip install torch transformers pandas openpyxl
 ```
 
-###2️⃣ 設定模型與資料
+### 2️⃣ 設定模型與資料
 ```
 MODEL_PATH = "hoho0106tw/femh-primary-dx-model"
 EXCEL_PATH = "sample_200_v4.xlsx"
 ```
 
-###3️⃣ 執行
+### 3️⃣ 執行
 ```bash
 python soap_dx_distilled_model.py
 ```
 ---
 
-##🚀 模型優勢
+## 🚀 模型優勢
 
 使用 GPT 20B 蒸餾模型（Distilled Model）
 訓練資料約 7000 筆，經人工清洗與篩選
@@ -72,15 +72,15 @@ python soap_dx_distilled_model.py
 本模型：僅需生成 10 tokens 即可輸出答案
 原始模型：約需 10 倍 tokens 才能完成推論
 
-##👉 大幅降低推論時間與計算成本
+## 👉 大幅降低推論時間與計算成本
 
 ---
-###📊 評估方式
+### 📊 評估方式
 隨機抽樣資料（預設 100 筆）
 比較模型輸出與標準答案
 計算 Accuracy
 
 ---
-###⚠️ 注意事項
+### ⚠️ 注意事項
 僅供研究用途，不可用於臨床診斷
 輸出受限於訓練資料與分類清單
