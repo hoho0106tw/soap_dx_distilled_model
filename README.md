@@ -47,6 +47,7 @@ SOAP 病歷資料（S / O / A / P）
 ### 1️⃣ 安裝套件
 ```bash
 pip install torch transformers pandas openpyxl
+```
 
 ###2️⃣ 設定模型與資料
 MODEL_PATH = "hoho0106tw/femh-primary-dx-model"
