@@ -36,7 +36,6 @@ syncope
 
 ## ⚙️ 使用方法
 
-### 1️⃣ 安裝套件
 ```bash
 pip install torch transformers pandas openpyxl
 
